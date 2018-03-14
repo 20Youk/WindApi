@@ -52,7 +52,7 @@ def send_email(from_addr, to_addr, subject, password):
         print str(e)[1]
         return False
 if __name__ == "__main__":
-    if send_email(u"palh8888@163.com", u"jyyouzi@163.com", u"Wind_Api晚间任务执行报告", u"wind1234"):
+    if send_email(u"***@163.com", u"***@163.com", u"Wind_Api晚间任务执行报告", u"***"):
         print '邮件发送成功！'
     else:
         print '邮件发送失败，请检查程序，谢谢！'
